@@ -1,0 +1,2608 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Марафон BODY TIME</title>
+<meta name="description" content="Марафон похудения BODY TIME — минус [5] кг за [21] день. Готовый рацион, куратор, закрытый чат и поддержка 24/7. Участие бесплатное.">
+<link rel="canonical" href="https://[домен]/">
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAACGUlEQVR4nO2ZQUgUURjHfyOrha6GsrRUgpcVEzx00kowS+iwHbrpQQoEC+rWdotABCE8SEEYCHXq1kkECxIkCCIiSYoUqTBRiTIkdHFsd3E6xTq127i77/ERfL/bfPvNf9+P9+a9gXG8q4f5nymTHkCpqIA0KiCNCkijAtKogDQqII0KSKMC0qiANCogTaiA3lN9dA/lqHseaRd3k7XPLL/lzWM+vfI1DL4g0lDw0FJbXGsM7CpEIB+OQ0UlFZUciBJr4/Ql5p/x4AruhoHwIOwsoeZO+sesJP+FtWfgaAcNx2yF76KEJfRlgaEzAI5DOELHReIJX0OslaVZgIGTf94brmP4na9y6ywr74sYhYkZ8Dw215gcYXXeV6+qNRAehM1tdOO7xfDfmNiFgOoI7b0cac5WPI+5aTPh/6QEgUNNjK7m/XXqHt8Wiw/fM4ZmYDc7GR7d5PlD88m5sPAMlIWIJzjebT45579ZSa05yIXbnOixEu7HxDkA7A8TjRFP0NKVbTh/g5kJUm5JAwzC0AxsJ1ma5f5lMqlssTpCfYuZ/PwYX0KO76rW+gc4Q7vQviqiMc5dJ1Tuq2/9MJOfH2vnAJD+yeJM8fl7w+arxNO7bCct5gNWDjIgk2ZqlCd3rIT7MSTg7ZBySa7z9SMfXvJ6nPUVM8lBOPqlXhgVkEYFpFEBaVRAGhWQRgWkUQFpVEAaFZBGBaT5BU6NbfiNQfQ0AAAAAElFTkSuQmCC" type="image/png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Марафон BODY TIME — минус [5] кг за [21] день">
+<meta property="og:description" content="Готовый рацион, куратор, закрытый чат и поддержка 24/7. Участие бесплатное.">
+<meta property="og:image" content="https://[домен]/hero-photo.jpg">
+<meta property="og:url" content="https://[домен]/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Марафон BODY TIME — минус [5] кг за [21] день">
+<meta name="twitter:description" content="Готовый рацион, куратор, закрытый чат и поддержка 24/7. Участие бесплатное.">
+<meta name="twitter:image" content="hero-photo.jpg">
+<style>
+  :root{
+    --bg:#ffffff;
+    --bg-soft:#fdf6f2;
+    --orange:#ff6a1a;
+    --orange-soft:#ff8a42;
+    --ink:#111111;
+    --muted:#6f6f6f;
+    --card:#f6f6f6;
+    --border:#e7e7e7;
+    --btn-text:#111111;
+    --eyebrow-color:#cc4400;
+    --review-border:#cccccc;
+    --review-text:#6f6f6f;
+    --surface:#ffffff;
+    --navbar-bg:rgba(255,255,255,0.92);
+    --icon:#111111;
+    --featured-shadow:0 6px 18px rgba(255,106,26,0.18);
+  }
+  html[data-theme="dark"]{
+    --bg:#0d0d0d;
+    --bg-soft:#161616;
+    --orange:#ff6a1a;
+    --orange-soft:#ffb27a;
+    --ink:#f5f5f5;
+    --muted:#a8a8a8;
+    --card:#1c1c1c;
+    --border:#2c2c2c;
+    --btn-text:#101010;
+    --eyebrow-color:#ff6a1a;
+    --review-border:#444444;
+    --review-text:#a8a8a8;
+    --surface:#1c1c1c;
+    --navbar-bg:rgba(13,13,13,0.9);
+    --icon:#f5f5f5;
+    --featured-shadow:0 0 0 1px rgba(255,106,26,0.4), 0 8px 26px rgba(255,106,26,0.45);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{transition:background-color .3s ease;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Helvetica Neue', Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    transition:background-color .3s ease, color .3s ease;
+  }
+  .frame{
+    width:100%;
+    max-width:430px;
+    min-height:100vh;
+    background:var(--bg);
+    overflow:hidden;
+  }
+  section{
+    padding:44px 24px;
+    border-bottom:1px solid var(--border);
+    position:relative;
+  }
+  .decor-section{z-index:2;}
+  .decor-section > *{position:relative;z-index:1;}
+  .blob{
+    position:absolute;
+    z-index:3;
+    pointer-events:none;
+    display:block;
+  }
+  .blob-white{display:none;}
+  html[data-theme="dark"] .blob-black{display:none;}
+  html[data-theme="dark"] .blob-white{display:block;}
+  .hero-mid-blob{display:none;} /* декоративный блоб в разрыве текст/кнопка — только на десктопе, см. медиа-запрос 1024px */
+  /* Верхний блоб в FAQ заходил на заголовок/иконку первого вопроса — на мобильном
+     (узкая секция) сдвинут сильнее, чем на планшете/десктопе, где текста рядом
+     относительно меньше. Смещение, а не z-index, чтобы не вернуть старый баг
+     с обрезанием блобов линиями-разделителями. */
+  .faq-top-blob{top:-34px; right:-28px;}
+  .eyebrow{
+    color:var(--eyebrow-color);
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    margin-bottom:12px;
+  }
+  h1{
+    font-size:32px;
+    line-height:1.15;
+    font-weight:800;
+    text-transform:uppercase;
+    color:var(--ink);
+  }
+  h1 span{color:var(--orange);}
+  h2{
+    font-size:22px;
+    font-weight:800;
+    text-transform:uppercase;
+    line-height:1.2;
+    margin-bottom:16px;
+    color:var(--ink);
+  }
+  p{
+    color:var(--muted);
+    font-size:15px;
+    line-height:1.55;
+  }
+  .lead{
+    color:var(--ink);
+    font-size:16px;
+    margin-top:16px;
+    line-height:1.5;
+  }
+  .hero-disclaimer{
+    color:var(--muted);
+    font-size:12px;
+    margin-top:8px;
+    line-height:1.4;
+  }
+  .btn{
+    display:block;
+    width:100%;
+    text-align:center;
+    background:var(--orange);
+    color:var(--btn-text);
+    font-weight:800;
+    font-size:16px;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+    padding:16px;
+    border-radius:10px;
+    border:none;
+    margin-top:24px;
+    cursor:pointer;
+    transition:background-color .3s ease, color .3s ease, transform .15s ease, opacity .3s ease;
+  }
+  .btn:active{transform:scale(.97);}
+  .btn:disabled{opacity:.5;pointer-events:none;}
+  @media (hover:hover) and (pointer:fine){
+    .btn:hover{background:var(--orange-soft);}
+  }
+  .btn-outline{
+    background:transparent;
+    border:2px solid var(--orange);
+    color:var(--orange);
+  }
+
+  /* NAVBAR */
+  .navbar{
+    position:sticky;
+    top:0;
+    z-index:100;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
+    padding:16px 24px;
+    background:var(--navbar-bg);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--border);
+    transition:background-color .3s ease, border-color .3s ease;
+  }
+  .navbar .logo{
+    font-size:16px;
+    font-weight:800;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    color:var(--ink);
+    margin-right:auto;
+  }
+  .navbar .logo span{color:var(--orange);}
+  .navbar-right{
+    display:flex;
+    align-items:center;
+    gap:16px;
+  }
+  .theme-toggle{
+    width:36px;
+    height:36px;
+    border-radius:50%;
+    border:1px solid var(--border);
+    background:var(--card);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    padding:0;
+    flex-shrink:0;
+    transition:background-color .3s ease, border-color .3s ease;
+  }
+  .theme-toggle svg{
+    width:18px;
+    height:18px;
+    stroke:var(--icon);
+    fill:none;
+    stroke-width:2;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+  }
+  .theme-toggle .icon-moon{display:none;}
+  html[data-theme="dark"] .theme-toggle .icon-sun{display:none;}
+  html[data-theme="dark"] .theme-toggle .icon-moon{display:block;}
+  .burger{
+    width:28px;
+    height:22px;
+    position:relative;
+    cursor:pointer;
+    background:none;
+    border:none;
+    padding:0;
+    z-index:101;
+    flex-shrink:0;
+  }
+  .burger span{
+    position:absolute;
+    left:0;
+    width:100%;
+    height:2px;
+    background:var(--ink);
+    border-radius:2px;
+    transition:transform .25s ease, opacity .25s ease, top .25s ease;
+  }
+  .burger span:nth-child(1){top:0;}
+  .burger span:nth-child(2){top:10px;}
+  .burger span:nth-child(3){top:20px;}
+  .burger.open span:nth-child(1){top:10px;transform:rotate(45deg);}
+  .burger.open span:nth-child(2){opacity:0;}
+  .burger.open span:nth-child(3){top:10px;transform:rotate(-45deg);}
+
+  .nav-menu{
+    position:fixed;
+    inset:0;
+    background:var(--bg);
+    z-index:99;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:24px 32px;
+    opacity:0;
+    visibility:hidden;
+    transform:translateY(-8px);
+    transition:opacity .25s ease, transform .25s ease, visibility .25s ease;
+    overflow:hidden;
+  }
+  .nav-menu .blob{width:420px;height:240px;top:50%;right:-160px;transform:translateY(-50%) rotate(20deg);opacity:0.9;z-index:2;}
+  .nav-menu a,
+  .nav-menu .nav-cta{position:relative;z-index:1;}
+  .nav-menu.open{
+    opacity:1;
+    visibility:visible;
+    transform:translateY(0);
+  }
+  .nav-menu a{
+    display:block;
+    color:var(--ink);
+    text-decoration:none;
+    font-size:22px;
+    font-weight:800;
+    text-transform:uppercase;
+    padding:16px 0;
+    border-bottom:1px solid var(--border);
+  }
+  .nav-menu a:last-of-type{border-bottom:none;}
+  .nav-menu .nav-cta{margin-top:24px;}
+
+  /* "НАЗАД К МЕСТУ ЧТЕНИЯ" — плавающая кнопка возврата после перехода по бургер-меню */
+  .back-to-position{
+    position:fixed;
+    left:50%;
+    bottom:20px;
+    transform:translate(-50%, 16px);
+    z-index:60;
+    display:flex;
+    align-items:center;
+    gap:6px;
+    padding:10px 16px;
+    background:var(--ink);
+    color:var(--bg);
+    border:none;
+    border-radius:100px;
+    font-size:13px;
+    font-weight:700;
+    box-shadow:0 8px 20px rgba(0,0,0,0.25);
+    cursor:pointer;
+    opacity:0;
+    visibility:hidden;
+    pointer-events:none;
+    transition:opacity .25s ease, transform .25s ease, visibility .25s ease;
+  }
+  .back-to-position.visible{
+    opacity:1;
+    visibility:visible;
+    transform:translate(-50%, 0);
+    pointer-events:auto;
+  }
+  .back-to-position:active{transform:translate(-50%, 0) scale(.96);}
+  @media (hover:hover) and (pointer:fine){
+    .back-to-position:hover{background:var(--orange);color:var(--btn-text);}
+  }
+
+  /* HERO */
+  #hero{padding-top:32px;text-align:left;}
+  .hero-photo-wrap{
+    position:relative;
+    margin-top:20px;
+    width:100%;
+    aspect-ratio:3/4;
+    overflow:hidden;
+    border-radius:14px;
+    background:var(--card);
+    /* aspect-ratio задаёт высоту без JS — важно для инструментов вроде Tildify,
+       которые снимают статичный слепок страницы, не выполняя скрипты.
+       sizeAspectBoxes() в конце файла оставлен как подстраховка для очень старых браузеров. */
+  }
+  .hero-photo{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:14px;
+    display:block;
+  }
+  .photo-callout{
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    font-size:12px;
+    letter-spacing:0.4px;
+    text-transform:lowercase;
+    color:#ffffff;
+    text-shadow:0 1px 3px rgba(0,0,0,0.5);
+    white-space:nowrap;
+  }
+  .callout-line{
+    display:flex;
+    align-items:center;
+  }
+  .photo-callout .cdot{
+    width:5px;
+    height:5px;
+    border-radius:50%;
+    background:#ffffff;
+    flex-shrink:0;
+    animation:scroll-dot-pulse 1.6s ease-in-out infinite;
+  }
+  .photo-callout .cline{
+    height:1px;
+    background:rgba(255,255,255,0.85);
+    flex-shrink:0;
+  }
+  .callout-text{margin-top:4px;}
+  /* left: label sits near left edge; markup order (line, then dot) puts the dot on the girl's side */
+  .photo-callout.left{left:4%;align-items:flex-start;}
+  /* right: label sits near right edge; markup order (dot, then line) puts the dot on the girl's side */
+  .photo-callout.right{right:4%;align-items:flex-end;}
+  .callout-1{top:20%;}
+  .callout-2{top:22%;}
+  .callout-3{top:37%;}
+  .callout-4{top:51%;right:9%;}
+  .callout-5{top:67%;}
+  .callout-6{top:90%;}
+  .hero-badge{
+    display:inline-block;
+    background:var(--surface);
+    border:1px solid var(--orange);
+    color:var(--orange);
+    font-size:12px;
+    font-weight:700;
+    padding:8px 12px;
+    border-radius:20px;
+    margin-top:16px;
+    transition:background-color .3s ease;
+  }
+  .scroll-hint{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin-top:16px;
+    font-size:12px;
+    color:var(--muted);
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+  }
+  .scroll-dot{
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    background:var(--orange);
+    flex-shrink:0;
+    animation:scroll-dot-pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes scroll-dot-pulse{
+    0%, 100%{opacity:1;transform:scale(1);}
+    50%{opacity:0.4;transform:scale(0.7);}
+  }
+  .hero-terms-note{
+    display:none; /* показывается только на десктопе — см. брейкпоинт 1024px, заменяет отдельный блок "Условия" */
+    font-size:15px;
+    color:var(--muted);
+    margin-top:20px;
+    line-height:1.5;
+  }
+
+  /* COUNTDOWN */
+  #deadline{
+    position:relative;
+    background-image:linear-gradient(180deg, rgba(0,0,0,0.05), rgba(0,0,0,0.15)), url('deadline-bg.webp');
+    background-size:cover;
+    background-position:center;
+    color:#ffffff;
+  }
+  #deadline .eyebrow{color:#1a1a1a;}
+  #deadline h2{color:#111111;}
+  #deadline p{color:rgba(20,20,20,0.75);}
+  .countdown-row{display:flex;gap:12px;margin-top:20px;}
+  #deadline .count-box{
+    flex:1;
+    background:rgba(20,16,14,0.82);
+    border:none;
+    border-radius:12px;
+    text-align:center;
+    padding:16px 4px;
+  }
+  #deadline .count-box .num{
+    font-size:22px;
+    font-weight:800;
+    color:var(--orange);
+    display:block;
+    will-change:transform, opacity;
+  }
+  #deadline .count-box .num.tick{
+    animation:count-digit-change .4s cubic-bezier(.34,1.56,.64,1);
+  }
+  @keyframes count-digit-change{
+    0%{transform:translateY(-6px);opacity:0;}
+    60%{transform:translateY(1px);opacity:1;}
+    100%{transform:translateY(0);opacity:1;}
+  }
+  #deadline .count-box .lbl{font-size:12px;color:rgba(255,255,255,0.75);text-transform:uppercase;}
+
+  /* LISTS */
+  ul{list-style:none;margin-top:16px;}
+  li{
+    position:relative;
+    padding-left:28px;
+    margin-bottom:12px;
+    font-size:15px;
+    color:var(--ink);
+  }
+  li::before{
+    content:"—";
+    position:absolute;
+    left:0;
+    color:var(--orange);
+    font-weight:700;
+  }
+  .check-list li::before{content:none;}
+  .pain-list li::before{content:none;}
+  .li-mark{
+    position:absolute;
+    left:0;
+    color:var(--orange);
+    font-weight:700;
+  }
+  .pain-list .li-mark{color:#e5484d;}
+
+  /* FORMAT CARDS (FLIP) */
+  .format-flip{
+    perspective:1200px;
+    margin-top:16px;
+    cursor:pointer;
+  }
+  .format-flip-inner{
+    position:relative;
+    width:100%;
+    min-height:130px;
+    transition:transform .5s cubic-bezier(.4,.2,.2,1);
+    transform-style:preserve-3d;
+  }
+  .format-flip.flipped .format-flip-inner{
+    transform:rotateY(180deg);
+  }
+  @media (hover:hover) and (pointer:fine){
+    .format-flip:hover .format-flip-inner{
+      transform:rotateY(180deg);
+    }
+  }
+  .format-face{
+    position:absolute;
+    inset:0;
+    backface-visibility:hidden;
+    border-radius:14px;
+    padding:20px 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+  .format-front{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+  }
+  .format-back{
+    transform:rotateY(180deg);
+    background:var(--card);
+    border:1px solid var(--border);
+    justify-content:center;
+  }
+  .format-back p{
+    color:var(--ink);
+    font-size:15px;
+    line-height:1.5;
+    margin:0;
+  }
+  .format-flip.style-solid .format-front{
+    background:var(--orange);
+    color:#ffffff;
+  }
+  .format-flip.style-solid .format-tag,
+  .format-flip.style-solid .format-tag .dot{
+    color:#ffffff;
+  }
+  .format-flip.style-solid .format-tag .dot{background:#ffffff;}
+  .format-flip.style-outline .format-front{
+    background:var(--surface);
+    border:2px solid var(--orange);
+    color:var(--orange);
+  }
+  .format-flip.style-outline .format-tag{color:var(--orange);}
+  .format-flip.style-outline .format-tag .dot{background:var(--orange);}
+  .format-tag{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+    font-weight:700;
+  }
+  .format-tag .dot{
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    display:inline-block;
+  }
+  .format-title-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+  }
+  .format-title-row .num{
+    font-size:22px;
+    font-weight:800;
+  }
+  .format-title-row h3{
+    font-size:15px;
+    text-transform:uppercase;
+    flex:1;
+  }
+  .format-title-row .arrow{
+    display:flex;
+    flex-shrink:0;
+  }
+
+  /* PRODUCT */
+  .product-photo-wrap{
+    position:relative;
+    width:100%;
+    margin-top:20px;
+    aspect-ratio:1/1;
+    overflow:hidden;
+    border-radius:14px;
+    background:var(--card);
+    /* aspect-ratio задаёт высоту без JS — см. пояснение у .hero-photo-wrap выше */
+  }
+  .product-photo{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:14px;
+    display:block;
+  }
+  .price-row{
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:var(--surface);
+    border:1px solid var(--orange);
+    border-radius:12px;
+    padding:16px;
+    margin-top:16px;
+  }
+  .price-row .name{font-weight:700;font-size:15px;color:var(--ink);}
+  .price-row .sub{font-size:12px;color:var(--muted);}
+  .price-row .price{font-weight:800;color:var(--orange);font-size:22px;text-align:right;}
+  .price-row-info{position:relative;}
+  .price-current{display:block;}
+  .price-old{
+    display:block;
+    font-weight:600;
+    font-size:13px;
+    color:var(--muted);
+    text-decoration:line-through;
+    margin-top:4px;
+  }
+  .composition-toggle{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    margin-top:8px;
+    padding:0;
+    border:none;
+    background:none;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:700;
+    color:var(--orange);
+    text-decoration:underline;
+    text-underline-offset:2px;
+  }
+  .composition-dot{
+    width:5px;
+    height:5px;
+    border-radius:50%;
+    background:var(--orange);
+    flex-shrink:0;
+    animation:scroll-dot-pulse 1.6s ease-in-out infinite;
+  }
+  .composition-popup{
+    position:absolute;
+    top:100%;
+    left:0;
+    margin-top:8px;
+    width:min(320px, calc(100vw - 64px));
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:12px 16px;
+    box-shadow:0 8px 24px rgba(0,0,0,0.12);
+    font-size:13px;
+    line-height:1.5;
+    color:var(--ink);
+    z-index:5;
+  }
+  .composition-popup p{margin:0;}
+  .composition-popup[hidden]{display:none;}
+  .share-wrap{position:relative;display:inline-block;}
+  .share-popup{
+    position:absolute;
+    top:100%;
+    left:0;
+    margin-top:8px;
+    width:240px;
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:8px;
+    box-shadow:0 8px 24px rgba(0,0,0,0.12);
+    z-index:5;
+  }
+  .share-popup[hidden]{display:none;}
+  .share-option{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:12px 8px;
+    border-radius:10px;
+    text-decoration:none;
+    color:var(--ink);
+    font-size:13px;
+    font-weight:600;
+    background:none;
+    border:none;
+    width:100%;
+    text-align:left;
+    cursor:pointer;
+  }
+  .share-option:hover{background:var(--card);}
+  .share-icon{
+    width:32px;
+    height:32px;
+    border-radius:50%;
+    background:var(--orange);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+  }
+  .share-icon svg{width:16px;height:16px;stroke:#ffffff;fill:none;stroke-width:1.8;}
+  .share-icon-copy{background:var(--card);}
+  .share-icon-copy svg{stroke:var(--ink);}
+
+  .price-row.featured{
+    border:2px solid var(--orange);
+    margin-top:24px;
+    box-shadow:var(--featured-shadow);
+  }
+  .featured-badge{
+    position:absolute;
+    top:-11px;
+    left:14px;
+    background:var(--orange);
+    color:#ffffff;
+    font-size:12px;
+    font-weight:800;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+    padding:4px 12px;
+    border-radius:20px;
+  }
+
+  /* REVIEWS */
+  .review-grid{
+    display:flex;
+    gap:12px;
+    margin-top:20px;
+    overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    scroll-behavior:smooth;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+  }
+  .review-grid::-webkit-scrollbar{display:none;}
+  .review-dots{
+    display:flex;
+    justify-content:center;
+    gap:8px;
+    margin-top:16px;
+  }
+  .review-dot{
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:var(--border);
+    flex-shrink:0;
+    transition:background-color .2s ease, transform .2s ease;
+  }
+  .review-dot.active{
+    background:var(--orange);
+    transform:scale(1.25);
+  }
+  .review-item{
+    flex:0 0 92%;
+    scroll-snap-align:start;
+    cursor:pointer;
+    opacity:0;
+    transform:translateY(20px);
+    transition:opacity .6s ease, transform .6s ease;
+  }
+  .review-item.in-view{
+    opacity:1;
+    transform:translateY(0);
+  }
+  .review-item:focus-visible{
+    outline:2px solid var(--orange);
+    outline-offset:2px;
+  }
+  /* Визуальный "подъём" карточки применяется к ВНУТРЕННЕЙ обёртке, а не к самой
+     .review-item — иначе scale() на hover увеличивает наводимую зону, курсор
+     у края карточки оказывается то внутри, то снаружи, и hover начинает мигать. */
+  .review-item-inner{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,0.12);
+  }
+  @media (hover:hover) and (pointer:fine){
+    .review-item-inner{
+      transition:transform .25s ease, box-shadow .25s ease;
+    }
+    .review-item:hover .review-item-inner{
+      transform:translateY(-4px) scale(1.02);
+      box-shadow:0 14px 30px rgba(0,0,0,0.16);
+    }
+  }
+  .review-shot{
+    display:block;
+    width:100%;
+    height:auto;
+    filter:contrast(1.03) saturate(1.04);
+  }
+  .review-badges{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    padding:16px 16px;
+    background:#232323;
+  }
+  .review-badge{
+    background:rgba(255,106,26,0.12);
+    border:1px solid var(--orange);
+    color:#ffffff;
+    font-size:13px;
+    font-weight:700;
+    padding:8px 16px;
+    border-radius:999px;
+    white-space:nowrap;
+    line-height:1.3;
+  }
+  .review-lightbox{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,0.92);
+    z-index:210;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+  }
+  .review-lightbox[hidden]{display:none;}
+  .review-lightbox-img{
+    max-width:min(100%, 640px);
+    max-height:90vh;
+    border-radius:12px;
+    box-shadow:0 20px 60px rgba(0,0,0,0.5);
+  }
+  .review-lightbox-close{
+    position:absolute;
+    top:20px;
+    right:20px;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    border:1px solid rgba(255,255,255,0.3);
+    background:rgba(255,255,255,0.08);
+    color:#fff;
+    font-size:22px;
+    line-height:1;
+    cursor:pointer;
+  }
+  .review-lightbox-nav{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    border:1px solid rgba(255,255,255,0.3);
+    background:rgba(255,255,255,0.08);
+    color:#fff;
+    font-size:22px;
+    line-height:1;
+    cursor:pointer;
+  }
+  .review-lightbox-nav.prev{left:16px;}
+  .review-lightbox-nav.next{right:16px;}
+  @media (min-width:640px){
+    .review-lightbox-close{top:28px;right:28px;}
+    .review-lightbox-nav.prev{left:28px;}
+    .review-lightbox-nav.next{right:28px;}
+    .faq-top-blob{top:-20px; right:-14px;}
+  }
+
+  /* CURATORS */
+  .curator-block{
+    margin-top:28px;
+    padding-top:28px;
+    border-top:1px solid var(--border);
+  }
+  .curator-block:first-of-type{margin-top:16px;padding-top:0;border-top:none;}
+  .curator-head{
+    display:flex;
+    gap:16px;
+    align-items:center;
+  }
+  .curator-photo{
+    width:64px;
+    height:64px;
+    border-radius:50%;
+    object-fit:cover;
+    flex-shrink:0;
+    background:var(--border);
+    box-shadow:0 8px 20px rgba(0,0,0,0.18);
+  }
+  .curator-head h3{
+    font-size:16px;
+    font-weight:800;
+    text-transform:uppercase;
+    color:var(--ink);
+    margin-bottom:8px;
+  }
+  .curator-role{
+    display:inline-block;
+    background:var(--orange);
+    color:#ffffff;
+    font-weight:800;
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:0.3px;
+    padding:4px 12px;
+    border-radius:20px;
+  }
+  .curator-photo-frame{
+    width:64px;
+    height:64px;
+    border-radius:50%;
+    overflow:hidden;
+    flex-shrink:0;
+    display:block;
+    box-shadow:0 8px 20px rgba(0,0,0,0.18);
+  }
+  .curator-photo-frame .curator-photo{
+    box-shadow:none;
+  }
+  .curator-photo-zoom{
+    transform:scale(1.25);
+    object-position:50% 40%;
+  }
+  .curator-bio{
+    margin-top:16px;
+    color:var(--muted);
+    font-size:15px;
+    line-height:1.5;
+  }
+  .curator-facts{margin-top:12px;}
+  .curator-facts li{font-size:13px;}
+
+  /* BONUS HIGHLIGHT */
+  .bonus-box{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    background:var(--bg-soft);
+    border:2px solid var(--orange);
+    border-radius:14px;
+    padding:16px;
+    margin-top:20px;
+  }
+  .bonus-box .bonus-icon{
+    font-size:22px;
+    flex-shrink:0;
+  }
+  .bonus-box .bonus-text{
+    font-size:15px;
+    color:var(--ink);
+    line-height:1.4;
+  }
+  .bonus-box .bonus-text b{color:var(--orange);}
+  .bonus-limit{
+    font-size:13px;
+    font-weight:700;
+    color:var(--orange);
+    margin-top:12px;
+  }
+  .bonus-limit b{font-weight:800;}
+
+  /* FAQ */
+  .faq-item{border-bottom:1px solid var(--border);padding:16px 0;}
+  .faq-item .q{
+    font-weight:700;
+    font-size:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:var(--ink);
+  }
+  .faq-toggle-icon{
+    color:var(--orange);
+    font-size:22px;
+    display:inline-block;
+    transition:transform .3s ease;
+  }
+  .faq-item.open .faq-toggle-icon{transform:rotate(180deg);}
+  .faq-item .a{
+    color:var(--muted);
+    font-size:15px;
+    margin-top:0;
+    max-height:0;
+    overflow:hidden;
+    opacity:0;
+    transition:max-height .35s ease, opacity .3s ease, margin-top .35s ease;
+  }
+  .faq-item.open .a{margin-top:8px;opacity:1;}
+
+  /* RESULT / FINAL CTA */
+  #final-cta{background:var(--bg-soft);text-align:center;}
+  .big-number{
+    font-size:46px;
+    font-weight:800;
+    color:var(--orange);
+    line-height:1;
+    margin:12px 0 4px;
+  }
+  .final-recap{
+    display:inline-block;
+    text-align:left;
+    margin:24px 0 4px;
+  }
+  .final-recap li{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding-left:0;
+    color:var(--ink);
+    font-size:15px;
+    margin-bottom:12px;
+  }
+  .final-recap li::before{content:none;}
+  .final-recap li .ico{
+    width:22px;
+    height:22px;
+    border-radius:50%;
+    background:var(--orange);
+    color:#ffffff;
+    font-size:12px;
+    font-weight:800;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+  }
+  .free-note{
+    font-size:13px;
+    color:var(--muted);
+    margin-top:20px;
+  }
+  .free-note b{color:var(--orange);}
+  .spots-left{color:var(--orange);font-weight:700;font-size:13px;margin-top:20px;}
+  .final-subnote{
+    font-size:13px;
+    color:var(--muted);
+    margin-top:12px;
+  }
+
+  footer{
+    padding:32px 24px 40px;
+    text-align:center;
+    color:#a8a8a8;
+    font-size:12px;
+    background:#2a2a2a;
+  }
+  .footer-partner{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    text-decoration:none;
+    background:#3a3a3a;
+    border:1px solid #4a4a4a;
+    border-radius:20px;
+    padding:8px 16px;
+    font-size:12px;
+    font-weight:700;
+    color:#f5f5f5;
+    margin-bottom:20px;
+  }
+  .footer-partner .dot{
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    background:var(--orange);
+    flex-shrink:0;
+  }
+  .footer-partner .arrow{color:var(--orange);font-weight:800;}
+  .footer-social{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+    margin-bottom:20px;
+  }
+  .footer-social a{
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    background:#3a3a3a;
+    border:1px solid #4a4a4a;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#f5f5f5;
+    text-decoration:none;
+  }
+  .footer-social svg{width:18px;height:18px;stroke:#f5f5f5;fill:none;stroke-width:1.8;}
+  .footer-legal{
+    line-height:1.5;
+    font-size:11px;
+    color:#a8a8a8;
+    max-width:340px;
+    margin:0 auto;
+  }
+  .footer-legal a{color:#a8a8a8;text-decoration:underline;}
+  .footer-copy{
+    margin-top:12px;
+    font-size:11px;
+    color:#a8a8a8;
+  }
+
+  /* MODAL ANKETA */
+  .modal-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,0.5);
+    z-index:200;
+    display:flex;
+    align-items:flex-end;
+    opacity:0;
+    visibility:hidden;
+    transition:opacity .25s ease, visibility .25s ease;
+  }
+  .modal-overlay.open{opacity:1;visibility:visible;}
+  .modal-sheet{
+    width:100%;
+    max-width:430px;
+    margin:0 auto;
+    background:var(--bg);
+    border-top:1px solid var(--border);
+    border-radius:20px 20px 0 0;
+    padding:28px 24px 32px;
+    max-height:88vh;
+    overflow-y:auto;
+    transform:translateY(24px);
+    transition:transform .25s ease, background-color .3s ease;
+  }
+  .modal-overlay.open .modal-sheet{transform:translateY(0);}
+  .modal-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:8px;
+  }
+  .modal-close{
+    background:none;
+    border:none;
+    color:var(--muted);
+    font-size:22px;
+    line-height:1;
+    cursor:pointer;
+    padding:0 0 0 12px;
+  }
+  .field-label{
+    font-size:13px;
+    color:var(--muted);
+    margin-top:16px;
+    margin-bottom:4px;
+    display:block;
+  }
+  .field-label:first-of-type{margin-top:20px;}
+  input, select{
+    width:100%;
+    padding:16px;
+    border-radius:10px;
+    border:1px solid var(--border);
+    background:var(--card);
+    color:var(--ink);
+    font-size:15px;
+    margin-top:8px;
+  }
+  input::placeholder{color:#999;}
+  select{appearance:none;}
+  .radio-row{display:flex;gap:12px;margin-top:8px;}
+  .radio-option{
+    flex:1;
+    text-align:center;
+    padding:12px 8px;
+    border-radius:10px;
+    border:1px solid var(--border);
+    background:var(--card);
+    color:var(--muted);
+    font-size:13px;
+    cursor:pointer;
+  }
+  .sr-only{
+    position:absolute;
+    width:1px;
+    height:1px;
+    padding:0;
+    margin:-1px;
+    overflow:hidden;
+    clip:rect(0,0,0,0);
+    white-space:nowrap;
+    border:0;
+  }
+  .radio-option.checked{
+    border-color:var(--orange);
+    color:var(--orange);
+    background:#fff1e8;
+  }
+  .radio-option:focus-within{
+    outline:2px solid var(--orange);
+    outline-offset:2px;
+  }
+  .consent-row{
+    display:flex;
+    align-items:flex-start;
+    gap:8px;
+    margin-top:16px;
+    font-size:13px;
+    color:var(--muted);
+    cursor:pointer;
+  }
+  .consent-row input{
+    width:auto;
+    height:auto;
+    padding:0;
+    margin:0;
+    border:none;
+    border-radius:0;
+    background:none;
+    flex-shrink:0;
+    accent-color:var(--orange);
+    transform:translateY(2px);
+  }
+  .consent-row a{color:var(--orange);}
+
+  .product-mark{
+    display:inline-block;
+    color:var(--orange);
+    font-weight:800;
+    border:2px solid var(--orange);
+    border-radius:6px;
+    padding:0 8px;
+    line-height:1.3;
+  }
+
+  /* КАЛЬКУЛЯТОР КБЖУ */
+  #calculator .field-label:first-of-type{margin-top:20px;}
+  .calc-row-2{display:flex;gap:12px;}
+  .calc-row-2 > div{flex:1;}
+  .calc-btn{margin-top:20px;}
+  .calc-result{
+    margin-top:24px;
+    padding:20px;
+    background:var(--card);
+    border-radius:14px;
+    border:1px solid var(--border);
+    display:none;
+  }
+  .calc-result.show{display:block;}
+  .calc-kcal{
+    text-align:center;
+    padding-bottom:16px;
+    margin-bottom:16px;
+    border-bottom:1px solid var(--border);
+  }
+  .calc-kcal .num{
+    font-size:32px;
+    font-weight:800;
+    color:var(--orange);
+    display:block;
+    line-height:1.1;
+  }
+  .calc-kcal .lbl{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:0.5px;}
+  .calc-macros{display:flex;gap:12px;}
+  .calc-macro{
+    flex:1;
+    text-align:center;
+    padding:12px 8px;
+    border-radius:10px;
+    background:var(--bg);
+    border:1px solid var(--border);
+  }
+  .calc-macro .num{font-size:16px;font-weight:800;color:var(--ink);display:block;}
+  .calc-macro .lbl{font-size:12px;color:var(--muted);text-transform:uppercase;}
+  .calc-note{font-size:12px;color:var(--muted);margin-top:16px;line-height:1.5;}
+
+  /* ============================================================
+     ПЛАНШЕТ / ДЕСКТОП
+     Мобильная версия (max-width:430px) остаётся базовой раскладкой,
+     эти брейкпоинты только расширяют её на широких экранах.
+     ============================================================ */
+  @media (min-width:640px){
+    .frame{max-width:700px;}
+    section{padding:56px 48px;}
+    h1{font-size:32px;}
+    h2{font-size:22px;}
+    .navbar{padding:20px 48px;}
+    .hero-photo-wrap{max-width:420px;margin-left:auto;margin-right:auto;}
+    #how-it-works{display:flex;gap:16px;flex-wrap:wrap;}
+    #how-it-works .eyebrow, #how-it-works h2{flex-basis:100%;}
+    #how-it-works .format-flip{flex:1 1 260px;margin-top:0;}
+    .product-text{display:flex;flex-wrap:wrap;gap:16px 16px;}
+    .product-text .eyebrow, .product-text h2, .product-text p, .product-text .btn{flex-basis:100%;}
+    .product-text .price-row{width:calc(50% - 8px);}
+    .product-text .price-row.featured{margin-top:0;}
+    .review-grid{display:block;columns:2;column-gap:16px;overflow-x:visible;}
+    .review-item{flex:none;display:inline-block;width:100%;break-inside:avoid;margin-bottom:16px;}
+    .review-dots{display:none;}
+    .curator-block{display:flex;gap:24px;align-items:flex-start;}
+    .curator-block > .curator-head{flex:0 0 220px;}
+    .curator-block > .curator-bio, .curator-block > .curator-facts{flex:1;}
+    .curator-bio{margin-top:0;}
+  }
+
+  @media (min-width:1024px){
+    .frame{max-width:1100px;}
+    section{padding:72px 64px;}
+    h1{font-size:46px;}
+    .navbar{padding:20px 64px;}
+    #hero{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      grid-template-rows:auto 1fr;
+      grid-template-areas:"text photo" "cta photo";
+      align-items:start;
+      column-gap:56px;
+      row-gap:20px;
+      padding-top:56px;
+    }
+    #hero .hero-text{grid-area:text;max-width:480px;}
+    #hero .hero-photo-wrap{grid-area:photo;margin-top:0;max-width:440px;}
+    #hero .hero-cta{grid-area:cta;max-width:480px;margin-top:0;align-self:end;}
+    #hero .hero-mid-blob{display:block;}
+    .hero-terms-note{display:block;}
+    #terms{display:none;}
+    #deadline .countdown-row{max-width:480px;}
+    .review-grid{columns:3;column-gap:20px;}
+    .pair-for-whom-included{
+      display:flex;
+      align-items:stretch;
+      border-bottom:1px solid var(--border);
+      padding:4px 0; /* временно для Tildify: даёт родителю свою кромку под курсор, чтобы выделить обёртку целиком, а не дочерние секции */
+      background:var(--bg);
+    }
+    .pair-for-whom-included section{
+      flex:1;
+      border-bottom:none;
+    }
+    .pair-for-whom-included #for-whom{border-right:1px solid var(--border);}
+    .curator-block > .curator-head{flex:0 0 260px;}
+    #product{display:flex;align-items:stretch;gap:48px;}
+    #product .product-text{flex:1 1 380px;max-width:480px;display:flex;flex-direction:column;gap:20px;}
+    #product .product-text .eyebrow, #product .product-text h2, #product .product-text p, #product .product-text .btn{flex-basis:auto;}
+    #product .product-text .eyebrow{margin-bottom:0;}
+    #product .product-text h2{margin-bottom:0;}
+    #product .product-text .price-row{width:100%;margin-top:0;}
+    #product .product-text .price-row.featured{margin-top:16px;}
+    #product .product-text .btn{margin-top:4px;}
+    #product .product-photo-wrap{flex:1 1 400px;max-width:460px;margin-top:0;height:auto;aspect-ratio:auto;align-self:stretch;}
+
+    /* FOOTER — слева политика/реквизиты, справа контакты и партнёрская ссылка */
+    footer{padding:40px 64px 48px;text-align:left;}
+    .footer-inner{
+      display:flex;
+      flex-direction:row-reverse;
+      justify-content:space-between;
+      align-items:flex-start;
+      gap:48px;
+    }
+    .footer-contacts{
+      flex:0 0 auto;
+      display:flex;
+      flex-direction:column;
+      align-items:flex-end;
+      text-align:right;
+      gap:16px;
+    }
+    .footer-partner{margin-bottom:0;}
+    .footer-social{margin-bottom:0;justify-content:flex-end;}
+    .footer-legal{flex:1 1 480px;max-width:560px;margin:0;}
+    .footer-copy{text-align:left;margin-top:24px;}
+  }
+
+  /* БЛОБЫ: появление при попадании в область экрана — на всех устройствах, включая мобильные.
+     Прозрачность намеренно не анимируем: у части блобов (для-кого/кураторы/faq) opacity уже задан
+     инлайн-стилем в HTML и перебивал бы анимацию — крутим/масштабируем все блобы одинаково. */
+  .blob.blob-anim{
+    scale:0.7;
+    rotate:-18deg;
+    transition:scale 1.8s cubic-bezier(.34,1.56,.64,1), rotate 1.8s ease;
+  }
+  .blob.blob-anim.in-view{
+    scale:1;
+    rotate:0deg;
+  }
+  @media (hover:hover) and (pointer:fine){
+    /* БЛОБЫ: усиление кручения/масштаба при наведении — только там, где вообще есть курсор */
+    .decor-section:hover .blob.blob-anim.in-view{
+      scale:1.12;
+      rotate:14deg;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="frame">
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <div class="logo">BODY <span>TIME</span></div>
+    <div class="navbar-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+        <svg class="icon-sun" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="4"></circle>
+          <line x1="12" y1="2" x2="12" y2="4"></line>
+          <line x1="12" y1="20" x2="12" y2="22"></line>
+          <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+          <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+          <line x1="2" y1="12" x2="4" y2="12"></line>
+          <line x1="20" y1="12" x2="22" y2="12"></line>
+          <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+          <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+      <button class="burger" id="burgerBtn" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="nav-menu" id="navMenu">
+    <img class="blob" src="blob-orange.webp" alt="" width="1344" height="768" loading="lazy" decoding="async">
+    <a href="#for-whom">Для кого</a>
+    <a href="#how-it-works">Как проходит</a>
+    <a href="#product">Продукт</a>
+    <a href="#reviews">Отзывы</a>
+    <a href="#curators">Кураторы</a>
+    <a href="#faq">Вопросы</a>
+    <button class="btn nav-cta open-form">Хочу в поток</button>
+  </nav>
+
+  <button type="button" class="back-to-position" id="backToPositionBtn" aria-label="Вернуться назад, откуда пришли">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"></path><path d="M11 18l-6-6 6-6"></path></svg>
+    <span>Назад</span>
+  </button>
+
+  <!-- 1. HERO -->
+  <section id="hero" class="decor-section">
+    <img class="blob" src="blob-orange.webp" alt="" style="width:110px; height:63px; top:8px; right:8px; transform:rotate(15deg);" width="1344" height="768" loading="lazy" decoding="async">
+    <img class="blob" src="blob-orange.webp" alt="" style="width:120px; height:69px; bottom:8px; right:8px; transform:rotate(25deg);" width="1344" height="768" loading="lazy" decoding="async">
+    <div class="hero-text">
+      <div class="eyebrow">Марафон [BODY TIME]</div>
+      <h1>Минус <span>[5] кг</span> за [21] день</h1>
+      <p class="hero-disclaimer">Результаты индивидуальны и зависят от особенностей организма</p>
+      <p class="lead">После отпуска — самое время вернуть тело в форму. Онлайн-программа, где ты получишь знания и поддержку куратора и результат, который видно на весах.</p>
+      <div class="hero-badge">Новый поток — <span id="streamStartHero">1 сентября</span></div>
+      <p class="hero-terms-note">Участие бесплатное — нужен только стартовый набор продукта <span class="product-mark">[ENERGY SMART]</span>.</p>
+      <div class="scroll-hint"><span class="scroll-dot"></span>Листай вниз</div>
+    </div>
+    <img class="blob hero-mid-blob" src="blob-orange.webp" alt="" style="width:240px; height:137px; left:30%; top:75%; transform:translate(-50%,-50%) rotate(-12deg);" width="1344" height="768" loading="lazy" decoding="async">
+    <div class="hero-photo-wrap" data-aspect="1.3333">
+      <img class="hero-photo" src="hero-photo.webp" alt="Марафон BODY TIME — фото участницы" width="1792" height="2400" decoding="async">
+      <span class="photo-callout left callout-1"><span class="callout-line"><span class="cline" style="width:44px;"></span><span class="cdot"></span></span><span class="callout-text">уверенность в лице</span></span>
+      <span class="photo-callout right callout-2"><span class="callout-line"><span class="cdot"></span><span class="cline" style="width:36px;"></span></span><span class="callout-text">тонус</span></span>
+      <span class="photo-callout left callout-3"><span class="callout-line"><span class="cline" style="width:30px;"></span><span class="cdot"></span></span><span class="callout-text">сила</span></span>
+      <span class="photo-callout right callout-4"><span class="callout-line"><span class="cdot"></span><span class="cline" style="width:34px;"></span></span><span class="callout-text">рельеф</span></span>
+      <span class="photo-callout right callout-5"><span class="callout-line"><span class="cdot"></span><span class="cline" style="width:34px;"></span></span><span class="callout-text">легкость</span></span>
+      <span class="photo-callout left callout-6"><span class="callout-line"><span class="cline" style="width:34px;"></span><span class="cdot"></span></span><span class="callout-text">упругость</span></span>
+    </div>
+    <button class="btn open-form hero-cta">Хочу в поток</button>
+  </section>
+
+  <!-- 2. DEADLINE -->
+  <section id="deadline">
+    <div class="eyebrow">После отпуска — самое время</div>
+    <h2>Поток стартует <span id="streamStartDeadline">1 сентября</span></h2>
+    <p>Это уже [14]-й поток марафона — успей войти в него и вернуться из отпуска в форме до 1 сентября, вместе со всем опытом, который мы отточили за это время.</p>
+    <div class="countdown-row" id="countdownRow" aria-live="off">
+      <div class="count-box"><span class="num" id="cd-days">04</span><span class="lbl" id="cd-days-lbl">дня</span></div>
+      <div class="count-box"><span class="num" id="cd-hours">12</span><span class="lbl">часов</span></div>
+      <div class="count-box"><span class="num" id="cd-mins">45</span><span class="lbl">мин</span></div>
+      <div class="count-box"><span class="num" id="cd-secs">30</span><span class="lbl">сек</span></div>
+    </div>
+    <button class="btn open-form">Успеть подать заявку</button>
+  </section>
+
+  <!-- 3. FOR WHOM -->
+  <div class="pair-for-whom-included" id="for-whom-and-included">
+    <section id="for-whom" class="decor-section">
+      <img class="blob blob-black" src="blob-black.webp" alt="" style="width:140px; height:80px; bottom:8px; right:8px; opacity:0.85; transform:rotate(-20deg);" width="1344" height="768" loading="lazy" decoding="async">
+      <img class="blob blob-white" src="blob-white.webp" alt="" style="width:140px; height:142px; bottom:8px; right:8px; opacity:0.85; transform:rotate(-20deg);" width="636" height="646" loading="lazy" decoding="async">
+      <div class="eyebrow">Это про тебя?</div>
+      <h2>Тебе сюда, если</h2>
+      <ul class="pain-list">
+        <li><span class="li-mark">✕</span>лишний вес мешает чувствовать себя собой</li>
+        <li><span class="li-mark">✕</span>отёки и тяжесть с утра</li>
+        <li><span class="li-mark">✕</span>нет энергии на день</li>
+        <li><span class="li-mark">✕</span>хочется перейти на правильное питание, но не знаешь, с чего начать</li>
+      </ul>
+    </section>
+
+    <!-- 4. WHAT'S INCLUDED -->
+    <section id="whats-included">
+      <div class="eyebrow">Формат участия</div>
+      <h2>Что вы получите</h2>
+      <ul class="check-list">
+        <li><span class="li-mark">✓</span>готовый рацион на каждый день</li>
+        <li><span class="li-mark">✓</span>личное сопровождение куратора</li>
+        <li><span class="li-mark">✓</span>доступ в закрытый чат участниц</li>
+        <li><span class="li-mark">✓</span>рекомендации и ответы на вопросы 24/7</li>
+        <li><span class="li-mark">✓</span>продукт <span class="product-mark">[ENERGY SMART]</span> для части приёмов пищи</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- 5. TERMS -->
+  <section id="terms">
+    <div class="eyebrow">Условия</div>
+    <h2>Участие бесплатное</h2>
+    <p>Вход в марафон и всё сопровождение куратора — бесплатно. Для участия нужен только стартовый набор продукта <span class="product-mark">[ENERGY SMART]</span>.</p>
+  </section>
+
+  <!-- 6. HOW IT WORKS -->
+  <section id="how-it-works">
+    <div class="eyebrow">Как проходит марафон</div>
+    <h2>Два формата — выбираете сами</h2>
+    <div class="format-flip style-solid" tabindex="0">
+      <div class="format-flip-inner">
+        <div class="format-face format-front">
+          <div class="format-tag"><span class="dot"></span>Легче</div>
+          <div class="format-title-row">
+            <span class="num">№ 1</span>
+            <h3>Формат с коктейлем</h3>
+            <span class="arrow"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="17" y1="7" x2="7" y2="17"></line><polyline points="7 10 7 17 14 17"></polyline></svg></span>
+          </div>
+        </div>
+        <div class="format-face format-back">
+          <p>4-5 приёмов пищи, из них 2-3 — коктейль <span class="product-mark">[ENERGY SMART]</span>. Проще и без лишних хлопот.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="format-flip style-outline" tabindex="0">
+      <div class="format-flip-inner">
+        <div class="format-face format-front">
+          <div class="format-tag"><span class="dot"></span>Сложнее</div>
+          <div class="format-title-row">
+            <span class="num">№ 2</span>
+            <h3>Формат без коктейлей</h3>
+            <span class="arrow"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="17" y1="7" x2="7" y2="17"></line><polyline points="7 10 7 17 14 17"></polyline></svg></span>
+          </div>
+        </div>
+        <div class="format-face format-back">
+          <p>5 приёмов пищи, которые готовите сами, с подсчётом калорий. Тоже работает, но потребует больше времени и дисциплины.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6.5. CALCULATOR -->
+  <section id="calculator">
+    <div class="eyebrow">Бесплатный расчёт</div>
+    <h2>Узнайте свою норму КБЖУ</h2>
+    <p>Введите свои данные — рассчитаем калорийность и баланс белков, жиров и углеводов под вашу цель марафона.</p>
+
+    <label class="field-label" id="calc-gender-label">Пол</label>
+    <div class="radio-row" role="radiogroup" aria-labelledby="calc-gender-label">
+      <label class="radio-option">
+        <input class="sr-only" type="radio" name="calc-gender" value="female" checked>
+        Женский
+      </label>
+      <label class="radio-option">
+        <input class="sr-only" type="radio" name="calc-gender" value="male">
+        Мужской
+      </label>
+    </div>
+
+    <div class="calc-row-2">
+      <div>
+        <label class="field-label" for="calc-age">Возраст</label>
+        <input id="calc-age" type="number" inputmode="numeric" placeholder="32" min="14" max="90">
+      </div>
+      <div>
+        <label class="field-label" for="calc-height">Рост, см</label>
+        <input id="calc-height" type="number" inputmode="numeric" placeholder="165" min="120" max="220">
+      </div>
+    </div>
+
+    <div class="calc-row-2">
+      <div>
+        <label class="field-label" for="calc-weight">Вес, кг</label>
+        <input id="calc-weight" type="number" inputmode="numeric" placeholder="68" min="35" max="200">
+      </div>
+      <div>
+        <label class="field-label" for="calc-activity">Активность</label>
+        <select id="calc-activity">
+          <option value="1.2">Минимальная</option>
+          <option value="1.375" selected>Лёгкая (1-3 трен/нед)</option>
+          <option value="1.55">Средняя (3-5 трен/нед)</option>
+          <option value="1.725">Высокая (6-7 трен/нед)</option>
+          <option value="1.9">Очень высокая</option>
+        </select>
+      </div>
+    </div>
+
+    <label class="field-label" for="calc-goal">Цель</label>
+    <select id="calc-goal">
+      <option value="loss" selected>Похудение</option>
+      <option value="maintain">Поддержание веса</option>
+      <option value="gain">Набор массы</option>
+    </select>
+
+    <button type="button" class="btn calc-btn" id="calcBtn">Рассчитать КБЖУ</button>
+
+    <div class="calc-result" id="calcResult">
+      <div class="calc-kcal">
+        <span class="num" id="calc-kcal-val">0</span>
+        <span class="lbl">ккал в день</span>
+      </div>
+      <div class="calc-macros">
+        <div class="calc-macro"><span class="num" id="calc-protein-val">0 г</span><span class="lbl">Белки</span></div>
+        <div class="calc-macro"><span class="num" id="calc-fat-val">0 г</span><span class="lbl">Жиры</span></div>
+        <div class="calc-macro"><span class="num" id="calc-carbs-val">0 г</span><span class="lbl">Углеводы</span></div>
+      </div>
+      <button class="btn btn-outline open-form" id="calcPlanBtn" style="margin-top:20px;">Получить план питания под эти цифры</button>
+    </div>
+    <div class="calc-note">Расчёт ориентировочный (формула Миффлина-Сан Жеора), не заменяет консультацию врача или диетолога.</div>
+  </section>
+
+  <!-- 7. PRODUCT -->
+  <section id="product" class="decor-section">
+    <img class="blob" src="blob-orange.webp" alt="" style="width:120px; height:69px; top:8px; right:8px; opacity:0.9; transform:rotate(60deg);" width="1344" height="768" loading="lazy" decoding="async">
+    <div class="product-text">
+      <div class="eyebrow">Стартовый набор</div>
+      <h2>Что входит в набор</h2>
+      <p>Готовые сеты — как утренний кофе: один простой шаг, и день начинается с заботы о себе.</p>
+      <div class="price-row featured">
+        <span class="featured-badge">Популярный выбор</span>
+        <div class="price-row-info">
+          <div class="name">Активатор похудения</div>
+          <button type="button" class="composition-toggle" aria-expanded="false" aria-controls="composition-popup-1">
+            <span class="composition-dot" aria-hidden="true"></span>
+            <span class="composition-label">Состав набора</span>
+          </button>
+          <div class="composition-popup" id="composition-popup-1" role="region" hidden>
+            <p>В программе: дренажный напиток <b>DrainEffect Low Carb</b>, жиросжигатель <b>Metaboost®</b> и <b>ED Smart</b> на замену 2 приёмов пищи.</p>
+          </div>
+        </div>
+        <div class="price">
+          <span class="price-current">4 670 ₽</span>
+          <span class="price-old">4 683 ₽</span>
+        </div>
+      </div>
+      <div class="price-row">
+        <div class="price-row-info">
+          <div class="name">Энергия молодости</div>
+          <button type="button" class="composition-toggle" aria-expanded="false" aria-controls="composition-popup-2">
+            <span class="composition-dot" aria-hidden="true"></span>
+            <span class="composition-label">Состав набора</span>
+          </button>
+          <div class="composition-popup" id="composition-popup-2" role="region" hidden>
+            <p>В программе: «Гринблэнд», Biodrone®, пептидный напиток Cellcode®, «ДрейнЭффект низкоуглеводный» и ED Smart. В подарок — «Анти-эйдж молекула».</p>
+          </div>
+        </div>
+        <div class="price">
+          <span class="price-current">12 865 ₽</span>
+          <span class="price-old">15 155 ₽</span>
+        </div>
+      </div>
+      <button class="btn open-form">Выбрать набор и вступить в поток</button>
+    </div>
+    <div class="product-photo-wrap" data-aspect="1">
+      <img class="product-photo" src="product-locker.webp" alt="Стартовый набор марафона" width="896" height="1200" loading="lazy" decoding="async">
+    </div>
+  </section>
+
+  <!-- 8. REVIEWS -->
+  <section id="reviews">
+    <div class="eyebrow">Не верьте на слово</div>
+    <h2>Смотрите сами</h2>
+    <p>Настоящая переписка и замеры участниц прошлых потоков — без постановки, как есть.</p>
+    <div class="review-grid" id="reviewGrid">
+      <div class="review-item" data-index="0" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="review-item-inner">
+        <img class="review-shot" src="review-1.webp" alt="Сообщение участницы марафона в чате: результат минус 2 кг за неделю" width="640" height="833" loading="lazy" decoding="async">
+        <div class="review-badges"><span class="review-badge">−2 кг</span><span class="review-badge">Ушёл целлюлит</span></div>
+        </div>
+      </div>
+      <div class="review-item" data-index="1" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="review-item-inner">
+        <img class="review-shot" src="review-2.webp" alt="Дневник замеров участницы марафона: минус 3,7 кг за две недели" width="640" height="1004" loading="lazy" decoding="async">
+        <div class="review-badges"><span class="review-badge">−3,7 кг</span><span class="review-badge">Без голодовок</span></div>
+        </div>
+      </div>
+      <div class="review-item" data-index="2" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="review-item-inner">
+        <img class="review-shot" src="review-3.webp" alt="Отзыв участницы марафона в общем чате" width="640" height="553" loading="lazy" decoding="async">
+        <div class="review-badges"><span class="review-badge">Научилась готовить ПП</span></div>
+        </div>
+      </div>
+      <div class="review-item" data-index="3" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="review-item-inner">
+        <img class="review-shot" src="review-4.webp" alt="Отзыв участницы марафона: минус 10 см в талии" width="640" height="515" loading="lazy" decoding="async">
+        <div class="review-badges"><span class="review-badge">−10 см</span><span class="review-badge">В талии</span></div>
+        </div>
+      </div>
+      <div class="review-item" data-index="4" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="review-item-inner">
+        <img class="review-shot" src="review-5.webp" alt="Отзыв участницы марафона: минус 3,9 кг за 2 недели" width="640" height="500" loading="lazy" decoding="async">
+        <div class="review-badges"><span class="review-badge">−3,9 кг</span><span class="review-badge">14 дней</span></div>
+        </div>
+      </div>
+      <div class="review-item" data-index="5" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="review-item-inner">
+        <img class="review-shot" src="review-6.webp" alt="Фото до/после участницы марафона: минус 6 кг 850 г" width="640" height="961" loading="lazy" decoding="async">
+        <div class="review-badges"><span class="review-badge">−6,85 кг</span><span class="review-badge">До / После</span></div>
+        </div>
+      </div>
+      <div class="review-item" data-index="6" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="review-item-inner">
+        <img class="review-shot" src="review-7.webp" alt="Фото до/после и весы участницы марафона: минус 2 кг 650 г" width="640" height="768" loading="lazy" decoding="async">
+        <div class="review-badges"><span class="review-badge">−2,65 кг</span><span class="review-badge">До / После</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="review-dots" id="reviewDots" aria-hidden="true">
+      <span class="review-dot active"></span>
+      <span class="review-dot"></span>
+      <span class="review-dot"></span>
+      <span class="review-dot"></span>
+      <span class="review-dot"></span>
+      <span class="review-dot"></span>
+      <span class="review-dot"></span>
+    </div>
+  </section>
+
+  <!-- REVIEW LIGHTBOX -->
+  <div class="review-lightbox" id="reviewLightbox" role="dialog" aria-modal="true" aria-label="Просмотр отзыва" hidden>
+    <button type="button" class="review-lightbox-close" id="reviewLightboxClose" aria-label="Закрыть">&times;</button>
+    <button type="button" class="review-lightbox-nav prev" id="reviewLightboxPrev" aria-label="Предыдущий отзыв">&#8249;</button>
+    <img class="review-lightbox-img" id="reviewLightboxImg" src="" alt="">
+    <button type="button" class="review-lightbox-nav next" id="reviewLightboxNext" aria-label="Следующий отзыв">&#8250;</button>
+  </div>
+
+    <!-- 9. CURATORS -->
+  <section id="curators" class="decor-section">
+    <img class="blob blob-black" src="blob-black.webp" alt="" style="width:95px; height:54px; top:8px; right:8px; opacity:0.9; transform:rotate(40deg);" width="1344" height="768" loading="lazy" decoding="async">
+    <img class="blob blob-white" src="blob-white.webp" alt="" style="width:95px; height:96px; top:8px; right:8px; opacity:0.9; transform:rotate(40deg);" width="636" height="646" loading="lazy" decoding="async">
+    <div class="eyebrow">Кураторы марафона</div>
+    <div class="curator-block">
+      <div class="curator-head">
+        <img class="curator-photo" src="foto1.webp" alt="Татьяна Иванова" width="3339" height="5009" loading="lazy" decoding="async">
+        <div>
+          <h3>Татьяна Иванова</h3>
+          <span class="curator-role">ТОП Лидер NL</span>
+        </div>
+      </div>
+      <p class="curator-bio">После рождения ребёнка столкнулась с набором веса и смогла вернуть себе форму без жёстких диет. Этот личный опыт стал началом пути, который помог уже сотням людей изменить отношение к питанию.</p>
+      <ul class="check-list curator-facts">
+        <li><span class="li-mark">✓</span>Вернула форму после родов и сохраняет результат уже несколько лет</li>
+        <li><span class="li-mark">✓</span>Более 100 проведённых марафонов по снижению веса</li>
+        <li><span class="li-mark">✓</span>Более 1000 участников, достигших первых результатов</li>
+        <li><span class="li-mark">✓</span>Делится личным опытом и помогает выстроить систему, которая работает в реальной жизни</li>
+      </ul>
+    </div>
+    <div class="curator-block">
+      <div class="curator-head">
+        <span class="curator-photo-frame">
+          <img class="curator-photo curator-photo-zoom" src="foto2.webp" alt="Юлия Лазарева" width="4016" height="6016" loading="lazy" decoding="async">
+        </span>
+        <div>
+          <h3>Юлия Лазарева</h3>
+          <span class="curator-role">Лидер NL</span>
+        </div>
+      </div>
+      <p class="curator-bio">Верит, что главное в марафоне — не контроль, а поддержка. Всегда рядом с участниками, помогает не сдаться на полпути и увидеть новые возможности после достижения результата.</p>
+      <ul class="check-list curator-facts">
+        <li><span class="li-mark">✓</span>Сопровождает участников ежедневно и помогает пройти марафон без срывов</li>
+        <li><span class="li-mark">✓</span>Более 500 человек после участия продолжили путь вместе с NL</li>
+        <li><span class="li-mark">✓</span>Помогла многим превратить любовь к ЗОЖ в дополнительный источник дохода</li>
+        <li><span class="li-mark">✓</span>Создаёт сильное сообщество, где поддерживают, мотивируют и помогают расти</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 10. TEAM / REFERRAL -->
+  <section id="team">
+    <div class="eyebrow">Бонус</div>
+    <h2>Позови подругу и получи бонус</h2>
+    <p>Многие участницы зовут в марафон подруг: результат приходит быстрее, когда есть близкий человек рядом. А если понравится не только худеть, но и помогать другим — куратор расскажет, как это может стать доходом.</p>
+    <div class="bonus-box">
+      <div class="bonus-icon">🎁</div>
+      <div class="bonus-text">За подругу, которая присоединится к потоку, вы получаете <b>мини-набор ED Smart (5 шт)</b> в подарок</div>
+    </div>
+    <div class="bonus-limit">Бонус — только для первых <b>[10]</b> приглашённых подруг в этом потоке</div>
+    <div class="share-wrap">
+      <button type="button" class="btn share-toggle" id="shareFriendBtn" aria-expanded="false" aria-controls="share-popup">Отправить подруге</button>
+      <div class="share-popup" id="share-popup" role="region" hidden>
+        <a class="share-option" id="shareTelegramLink" href="#" target="_blank" rel="noopener">
+          <span class="share-icon share-icon-telegram"><svg viewBox="0 0 24 24"><path d="M22 3 2 11l6 2m14-10-4 17-8-6m12-11L8 13m0 0v6"></path></svg></span>
+          <span>Telegram</span>
+        </a>
+        <button type="button" class="share-option" id="shareCopyLink">
+          <span class="share-icon share-icon-copy"><svg viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"></rect><rect x="4" y="4" width="11" height="11" rx="2"></rect></svg></span>
+          <span>Скопировать ссылку</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. FAQ -->
+  <section id="faq" class="decor-section">
+    <img class="blob faq-top-blob" src="blob-orange.webp" alt="" style="width:120px; height:69px; opacity:0.9; transform:rotate(-30deg);" width="1344" height="768" loading="lazy" decoding="async">
+    <img class="blob blob-black" src="blob-black.webp" alt="" style="width:80px; height:46px; bottom:8px; left:8px; opacity:0.85; transform:rotate(50deg);" width="1344" height="768" loading="lazy" decoding="async">
+    <img class="blob blob-white" src="blob-white.webp" alt="" style="width:80px; height:81px; bottom:8px; left:8px; opacity:0.85; transform:rotate(50deg);" width="636" height="646" loading="lazy" decoding="async">
+    <div class="eyebrow">Вопросы</div>
+    <h2>FAQ</h2>
+    <div class="faq-item">
+      <div class="q" role="button" tabindex="0" aria-expanded="false" aria-controls="faq-a-1" id="faq-q-1">Сколько длится марафон?<span class="faq-toggle-icon" aria-hidden="true">+</span></div>
+      <div class="a" id="faq-a-1" role="region" aria-labelledby="faq-q-1">21 день — достаточно, чтобы войти в ритм, закрепить привычку и увидеть первые изменения. При желании можно зайти в следующий поток и продлить с нами идти к цели.</div>
+    </div>
+    <div class="faq-item">
+      <div class="q" role="button" tabindex="0" aria-expanded="false" aria-controls="faq-a-2" id="faq-q-2">Нужно ли покупать что-то ещё, кроме стартового набора?<span class="faq-toggle-icon" aria-hidden="true">+</span></div>
+      <div class="a" id="faq-a-2" role="region" aria-labelledby="faq-q-2">Нет, стартового набора достаточно на весь марафон. По желанию вы можете взять расширенный набор.</div>
+    </div>
+    <div class="faq-item">
+      <div class="q" role="button" tabindex="0" aria-expanded="false" aria-controls="faq-a-3" id="faq-q-3">Можно ли без тренировок?<span class="faq-toggle-icon" aria-hidden="true">+</span></div>
+      <div class="a" id="faq-a-3" role="region" aria-labelledby="faq-q-3">Да, тренировки — по желанию, не обязательны для результата.</div>
+    </div>
+    <div class="faq-item">
+      <div class="q" role="button" tabindex="0" aria-expanded="false" aria-controls="faq-a-5" id="faq-q-5">А что если сорвусь или продукт не подойдёт?<span class="faq-toggle-icon" aria-hidden="true">+</span></div>
+      <div class="a" id="faq-a-5" role="region" aria-labelledby="faq-q-5">Один срыв не отменяет результат — куратор поможет мягко вернуться в рацион без чувства вины, без "начать с понедельника заново". А если конкретный продукт из набора не подошёл по вкусу или самочувствию — просто напишите куратору в чате: подберём замену или скорректируем рацион под вас.</div>
+    </div>
+    <div class="faq-item">
+      <div class="q" role="button" tabindex="0" aria-expanded="false" aria-controls="faq-a-6" id="faq-q-6">Как проходит поддержка куратора?<span class="faq-toggle-icon" aria-hidden="true">+</span></div>
+      <div class="a" id="faq-a-6" role="region" aria-labelledby="faq-q-6">Ежедневно в закрытом чате: контроль рациона, ответы на вопросы, мотивация.</div>
+    </div>
+  </section>
+
+  <!-- 12. FINAL CTA -->
+  <section id="final-cta">
+    <div class="eyebrow">Марафон [BODY TIME]</div>
+    <h2>Через [2 недели] на весах</h2>
+    <div class="big-number">– [2,5] кг</div>
+    <p>Без срывов и голодовок — просто следуя рациону и поддержке куратора.</p>
+
+    <ul class="final-recap">
+      <li><span class="ico">✓</span>Готовый рацион на каждый день</li>
+      <li><span class="ico">✓</span>Личный куратор и закрытый чат</li>
+      <li><span class="ico">✓</span>Рацион для плавного выхода после</li>
+    </ul>
+
+    <div class="free-note">Участие <b>бесплатное</b> — нужен только стартовый набор продукта</div>
+
+    <div class="spots-left" id="spotsLeft">Осталось [7] мест в потоке</div>
+    <button class="btn open-form">Подать заявку</button>
+    <div class="final-subnote">Куратор свяжется с вами в течение дня</div>
+    <div class="final-subnote" style="margin-top:16px;">Результаты индивидуальны и зависят от особенностей организма. Материалы марафона носят информационный характер и не являются медицинской рекомендацией. Перед началом марафона рекомендуется консультация врача.</div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-contacts">
+        <a class="footer-partner" href="https://nlstar.com" target="_blank" rel="noopener">
+          <span class="dot"></span> Партнёр NL International <span class="arrow">→</span>
+        </a>
+
+        <div class="footer-social">
+          <a href="https://t.me/[username]" target="_blank" rel="noopener" aria-label="Telegram">
+            <svg viewBox="0 0 24 24"><path d="M22 3 2 11l6 2m14-10-4 17-8-6m12-11L8 13m0 0v6"></path></svg>
+          </a>
+          <a href="https://instagram.com/[username]" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="0.6"></circle></svg>
+          </a>
+          <a href="https://vk.com/[username]" target="_blank" rel="noopener" aria-label="VK">
+            <svg viewBox="0 0 24 24"><path d="M4 4h4c.5 4 3 8 5 9V4h4c0 3-1 6-3 8 2 2 3 4 4 8h-4c-1-2-2-4-4-5v5H9c-3-1-5-5-5-5"></path></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-legal">
+        Марафон организован независимым партнёром компании NL International. Официальный сайт компании — <a href="https://nlstar.com" target="_blank" rel="noopener">nlstar.com</a>.
+        <br><br>
+        ИП Иванова Мария Алексеевна.
+        <br>
+        <a href="#privacy">Политика обработки персональных данных</a> — будет добавлена перед запуском формы заявки.
+      </div>
+    </div>
+
+    <div class="footer-copy">Марафон [BODY TIME] · [2026]</div>
+  </footer>
+</div>
+
+<!-- MODAL: АНКЕТА УЧАСТНИЦЫ -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-sheet" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-head">
+      <div>
+        <div class="eyebrow" style="margin-bottom:4px;">Заявка на поток</div>
+        <h2 id="modalTitle" style="margin-bottom:0;">Анкета участницы</h2>
+      </div>
+      <button class="modal-close" id="modalClose" aria-label="Закрыть">✕</button>
+    </div>
+    <p>Ответьте на несколько вопросов — куратор подберёт формат под вас и свяжется в Telegram.</p>
+
+    <form id="ankForm">
+      <label class="field-label" for="ank-name">Имя</label>
+      <input id="ank-name" type="text" name="name" placeholder="Как к вам обращаться" required>
+
+      <label class="field-label" for="ank-contact">Telegram или телефон</label>
+      <input id="ank-contact" type="text" name="contact" placeholder="@username или +7..." required>
+
+      <label class="field-label" for="ank-age">Возраст</label>
+      <input id="ank-age" type="number" name="age" placeholder="Например, 32" min="14" max="90">
+
+      <label class="field-label" id="format-group-label">Формат участия</label>
+      <div class="radio-row" role="radiogroup" aria-labelledby="format-group-label">
+        <label class="radio-option">
+          <input class="sr-only" type="radio" name="format" value="Коктейль" checked>
+          С коктейлем
+        </label>
+        <label class="radio-option">
+          <input class="sr-only" type="radio" name="format" value="ПП">
+          Без коктейля
+        </label>
+        <label class="radio-option">
+          <input class="sr-only" type="radio" name="format" value="Не определился">
+          Не определился
+        </label>
+      </div>
+
+      <label class="field-label" for="ank-goal">Сколько кг хотите сбросить</label>
+      <select id="ank-goal" name="goal">
+        <option>до 3 кг</option>
+        <option>3–5 кг</option>
+        <option>5–10 кг</option>
+        <option>больше 10 кг</option>
+      </select>
+
+      <label class="consent-row">
+        <input type="checkbox" id="ank-consent" name="consent" required>
+        <span>Согласен(на) на <a href="#privacy" target="_blank" rel="noopener">обработку персональных данных</a></span>
+      </label>
+
+      <button type="submit" class="btn">Отправить анкету</button>
+    </form>
+  </div>
+</div>
+
+<script>
+  /* ============================================================
+     НАСТРОЙКИ — меняйте эти значения каждый месяц под новый поток,
+     остальной код трогать не нужно.
+     ============================================================ */
+  const CONFIG = {
+    // Дата и время старта потока (локальное время посетителя).
+    // Формат: 'ГГГГ-ММ-ДДTЧЧ:ММ:00'. Пример: '2026-08-01T10:00:00'
+    START_DATE: '2026-09-01T10:00:00',
+
+    // Сколько мест осталось в потоке — правьте это число, оно подставится в блок в конце страницы
+    SPOTS_LEFT: 7,
+
+    // ВАЖНО: токен бота и chat_id здесь больше НЕ хранятся — их нельзя держать
+    // в клиентском коде страницы (виден любому через "Просмотр кода страницы").
+    // Токен и chat_id теперь живут только на сервере (переменные окружения
+    // serverless-функции, см. /api/telegram-lead или аналог), а фронтенд
+    // обращается к своему эндпоинту в CONFIG.LEAD_ENDPOINT ниже.
+    // Прежний токен считается скомпрометированным — перевыпущен через @BotFather.
+    LEAD_ENDPOINT: '[/api/telegram-lead]',
+
+    // ID счётчика Яндекс.Метрики (число). Оставьте null, если счётчика ещё нет.
+    YANDEX_METRIKA_ID: null,
+    // ID пикселя VK/Facebook. Оставьте null, если пикселя ещё нет.
+    VK_PIXEL_ID: null
+  };
+
+  /* ANALYTICS — подключается автоматически, как только вы впишете ID в CONFIG выше */
+  (function(){
+    if(CONFIG.YANDEX_METRIKA_ID){
+      window.ym = window.ym || function(){ (ym.a = ym.a || []).push(arguments); };
+      ym.l = 1 * new Date();
+      const s = document.createElement('script');
+      s.src = 'https://mc.yandex.ru/metrika/tag.js';
+      s.async = true;
+      document.head.appendChild(s);
+      ym(CONFIG.YANDEX_METRIKA_ID, 'init', { clickmap:true, trackLinks:true, accurateTrackBounce:true });
+    }
+    if(CONFIG.VK_PIXEL_ID){
+      const s = document.createElement('script');
+      s.textContent = `!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?169",t.onload=function(){VK.Retargeting.Init("${CONFIG.VK_PIXEL_ID}"),VK.Retargeting.Hit()},document.head.appendChild(t)}();`;
+      document.head.appendChild(s);
+    }
+  })();
+
+  /* ЦЕЛИ (события) Яндекс.Метрики и VK-пикселя — сработают автоматически,
+     как только впишете ID счётчиков в CONFIG выше; до этого вызовы просто
+     ничего не делают (счётчики ещё не подключены). */
+  function trackEvent(goalName){
+    if(CONFIG.YANDEX_METRIKA_ID && window.ym){
+      ym(CONFIG.YANDEX_METRIKA_ID, 'reachGoal', goalName);
+    }
+    if(CONFIG.VK_PIXEL_ID && window.VK && typeof VK.Goal === 'function'){
+      VK.Goal(goalName);
+    }
+  }
+  document.querySelectorAll('.open-form').forEach(btn=>{
+    btn.addEventListener('click', ()=> trackEvent('open_form'));
+  });
+  const calcBtnForTracking = document.getElementById('calcBtn');
+  if(calcBtnForTracking){
+    calcBtnForTracking.addEventListener('click', ()=> trackEvent('calculate_kbju'));
+  }
+  const shareBtnForTracking = document.getElementById('shareFriendBtn');
+  if(shareBtnForTracking){
+    shareBtnForTracking.addEventListener('click', ()=> trackEvent('share_friend'));
+  }
+
+  /* КВАДРАТНЫЕ/ПРОПОРЦИОНАЛЬНЫЕ ФОТО-БЛОКИ (hero, стартовый набор) —
+     высота считается напрямую в пикселях по фактической ширине блока.
+     Это надёжнее, чем CSS aspect-ratio или padding-hack — не зависит
+     от поддержки конкретных CSS-свойств браузером и корректно работает
+     даже внутри flex-раскладки на десктопе. */
+  const desktopMQ = window.matchMedia('(min-width:1024px)');
+
+  function sizeAspectBoxes(){
+    document.querySelectorAll('[data-aspect]').forEach(box=>{
+      if(box.matches('#product .product-photo-wrap') && desktopMQ.matches) return; // на десктопе высоту задаёт syncProductPhotoHeight()
+      const ratio = parseFloat(box.getAttribute('data-aspect'));
+      if(!ratio) return;
+      const w = box.getBoundingClientRect().width;
+      if(w > 0) box.style.height = Math.round(w * ratio) + 'px';
+    });
+  }
+  sizeAspectBoxes();
+  window.addEventListener('load', sizeAspectBoxes);
+  window.addEventListener('resize', sizeAspectBoxes);
+  window.addEventListener('orientationchange', sizeAspectBoxes);
+
+  /* На десктопе фото стартового набора должно доходить ровно до нижнего края кнопки —
+     подгоняем высоту фото-обёртки под фактическую высоту текстовой колонки. */
+  function syncProductPhotoHeight(){
+    const wrap = document.querySelector('#product .product-photo-wrap');
+    const text = document.querySelector('#product .product-text');
+    if(!wrap || !text) return;
+    if(desktopMQ.matches){
+      wrap.style.height = text.offsetHeight + 'px';
+    } else {
+      wrap.style.height = ''; // мобильный/планшет — снова работает CSS aspect-ratio
+    }
+  }
+  syncProductPhotoHeight();
+  window.addEventListener('load', syncProductPhotoHeight);
+  window.addEventListener('resize', syncProductPhotoHeight);
+  window.addEventListener('orientationchange', syncProductPhotoHeight);
+
+  /* REVIEWS CAROUSEL — точки-пагинация синхронизируются со скроллом на мобильном/планшете */
+  (function(){
+    const grid = document.getElementById('reviewGrid');
+    const dotsWrap = document.getElementById('reviewDots');
+    if(!grid || !dotsWrap) return;
+    const dots = Array.from(dotsWrap.querySelectorAll('.review-dot'));
+    const items = Array.from(grid.querySelectorAll('.review-item'));
+    if(!dots.length || !items.length) return;
+
+    function updateActiveDot(){
+      if(desktopMQ.matches) return; // на десктопе точки скрыты, сетка без скролла
+      const gridRect = grid.getBoundingClientRect();
+      const gridCenter = gridRect.left + gridRect.width / 2;
+      let closestIndex = 0;
+      let closestDist = Infinity;
+      items.forEach((item, i)=>{
+        const r = item.getBoundingClientRect();
+        const itemCenter = r.left + r.width / 2;
+        const dist = Math.abs(itemCenter - gridCenter);
+        if(dist < closestDist){ closestDist = dist; closestIndex = i; }
+      });
+      dots.forEach((dot, i)=> dot.classList.toggle('active', i === closestIndex));
+    }
+    grid.addEventListener('scroll', updateActiveDot, { passive: true });
+    window.addEventListener('resize', updateActiveDot);
+    updateActiveDot();
+  })();
+
+  /* SPOTS LEFT */
+  (function(){
+    const el = document.getElementById('spotsLeft');
+    if(el) el.textContent = `Осталось ${CONFIG.SPOTS_LEFT} мест в потоке`;
+  })();
+
+  /* COUNTDOWN TIMER */
+  (function(){
+    const dEl = document.getElementById('cd-days');
+    const dLbl = document.getElementById('cd-days-lbl');
+    const hEl = document.getElementById('cd-hours');
+    const mEl = document.getElementById('cd-mins');
+    const sEl = document.getElementById('cd-secs');
+    if(!dEl) return;
+
+    function pluralDays(n){
+      const mod10 = n % 10, mod100 = n % 100;
+      if(mod10 === 1 && mod100 !== 11) return 'день';
+      if([2,3,4].includes(mod10) && ![12,13,14].includes(mod100)) return 'дня';
+      return 'дней';
+    }
+
+    function pad(n){ return String(n).padStart(2, '0'); }
+
+    function setDigit(el, value){
+      if(!el) return;
+      if(el.textContent === value) return;
+      el.textContent = value;
+      el.classList.remove('tick');
+      // reflow, чтобы анимация перезапускалась при каждой смене значения, а не только один раз
+      void el.offsetWidth;
+      el.classList.add('tick');
+    }
+
+    function tick(){
+      const target = new Date(CONFIG.START_DATE.replace(/[\[\]]/g, ''));
+      const now = new Date();
+      let diff = target - now;
+      if(isNaN(diff) || diff <= 0){
+        setDigit(dEl, '00');
+        if(dLbl) dLbl.textContent = 'дней';
+        setDigit(hEl, '00');
+        setDigit(mEl, '00');
+        setDigit(sEl, '00');
+        return;
+      }
+      const days = Math.floor(diff / (1000*60*60*24));
+      const hours = Math.floor((diff / (1000*60*60)) % 24);
+      const mins = Math.floor((diff / (1000*60)) % 60);
+      const secs = Math.floor((diff / 1000) % 60);
+      setDigit(dEl, pad(days));
+      if(dLbl) dLbl.textContent = pluralDays(days);
+      setDigit(hEl, pad(hours));
+      setDigit(mEl, pad(mins));
+      setDigit(sEl, pad(secs));
+    }
+    tick();
+    setInterval(tick, 1000);
+  })();
+
+  /* ДАТА СТАРТА: единый источник правды — CONFIG.START_DATE.
+     Текст в бейдже хиро и в заголовке "Старт уже скоро" подставляется отсюда,
+     а не прописывается вручную в разметке — при смене потока достаточно
+     поменять одну дату в CONFIG, обе надписи обновятся сами и не разъедутся. */
+  (function(){
+    const heroEl = document.getElementById('streamStartHero');
+    const deadlineEl = document.getElementById('streamStartDeadline');
+    if(!heroEl && !deadlineEl) return;
+    const date = new Date(CONFIG.START_DATE.replace(/[\[\]]/g, ''));
+    if(isNaN(date)) return; // дата в CONFIG ещё не заполнена/некорректна — оставляем текст из разметки как есть
+    const months = ['января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря'];
+    const text = `${date.getDate()} ${months[date.getMonth()]}`;
+    if(heroEl) heroEl.textContent = text;
+    if(deadlineEl) deadlineEl.textContent = text;
+  })();
+
+  /* THEME TOGGLE */
+  (function(){
+    const root = document.documentElement;
+    const toggleBtn = document.getElementById('themeToggle');
+    let saved = null;
+    try{ saved = localStorage.getItem('bt-theme'); }catch(e){}
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const initial = saved || (prefersDark ? 'dark' : 'light');
+    root.setAttribute('data-theme', initial);
+
+    toggleBtn.addEventListener('click', ()=>{
+      const current = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      const next = current === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try{ localStorage.setItem('bt-theme', next); }catch(e){}
+    });
+  })();
+
+  /* БЛОБЫ: крутятся/увеличиваются при попадании в область экрана на всех устройствах, при наведении — там, где есть курсор (см. CSS .blob-anim / .decor-section:hover) */
+  (function(){
+    const blobs = document.querySelectorAll('.decor-section .blob');
+    if(!blobs.length) return;
+    blobs.forEach(b => b.classList.add('blob-anim'));
+    // Ждём два кадра рендеринга, прежде чем начать наблюдение: иначе блобы,
+    // которые видны сразу при загрузке (например, в хиро), получают класс
+    // in-view в том же кадре, что и blob-anim, — браузер не успевает
+    // отрисовать промежуточное состояние и переход "прыгает" без анимации.
+    requestAnimationFrame(()=>{
+      requestAnimationFrame(()=>{
+        const io = new IntersectionObserver((entries)=>{
+          entries.forEach(entry=>{
+            if(entry.isIntersecting){
+              entry.target.classList.add('in-view');
+              io.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.2 });
+        blobs.forEach(b => io.observe(b));
+      });
+    });
+  })();
+
+  /* ОТЗЫВЫ: появление карточек по очереди при попадании в область экрана + лайтбокс */
+  (function(){
+    const reviewItems = Array.from(document.querySelectorAll('#reviews .review-item'));
+    if(!reviewItems.length) return;
+
+    reviewItems.forEach((el, i)=>{
+      el.style.transitionDelay = (i % 6) * 90 + 'ms';
+    });
+
+    requestAnimationFrame(()=>{
+      requestAnimationFrame(()=>{
+        const io = new IntersectionObserver((entries)=>{
+          entries.forEach(entry=>{
+            if(entry.isIntersecting){
+              entry.target.classList.add('in-view');
+              io.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.15 });
+        reviewItems.forEach(el => io.observe(el));
+      });
+    });
+
+    /* Лайтбокс */
+    const lightbox = document.getElementById('reviewLightbox');
+    const lightboxImg = document.getElementById('reviewLightboxImg');
+    const btnClose = document.getElementById('reviewLightboxClose');
+    const btnPrev = document.getElementById('reviewLightboxPrev');
+    const btnNext = document.getElementById('reviewLightboxNext');
+    if(!lightbox || !lightboxImg || !btnClose || !btnPrev || !btnNext) return;
+
+    let currentIndex = 0;
+    let lastFocusedReview = null;
+
+    function showAt(index){
+      currentIndex = (index + reviewItems.length) % reviewItems.length;
+      const shot = reviewItems[currentIndex].querySelector('.review-shot');
+      lightboxImg.src = shot.src;
+      lightboxImg.alt = shot.alt;
+    }
+    function openLightbox(index){
+      lastFocusedReview = document.activeElement;
+      showAt(index);
+      lightbox.hidden = false;
+      document.body.style.overflow = 'hidden';
+      btnClose.focus();
+      document.addEventListener('keydown', onLightboxKeydown);
+    }
+    function closeLightbox(){
+      lightbox.hidden = true;
+      document.body.style.overflow = '';
+      document.removeEventListener('keydown', onLightboxKeydown);
+      if(lastFocusedReview) lastFocusedReview.focus();
+    }
+    function onLightboxKeydown(e){
+      if(e.key === 'Escape') closeLightbox();
+      if(e.key === 'ArrowLeft') showAt(currentIndex - 1);
+      if(e.key === 'ArrowRight') showAt(currentIndex + 1);
+    }
+
+    reviewItems.forEach((el, i)=>{
+      el.addEventListener('click', ()=> openLightbox(i));
+      el.addEventListener('keydown', (e)=>{
+        if(e.key === 'Enter' || e.key === ' '){
+          e.preventDefault();
+          openLightbox(i);
+        }
+      });
+    });
+    btnClose.addEventListener('click', closeLightbox);
+    btnPrev.addEventListener('click', ()=> showAt(currentIndex - 1));
+    btnNext.addEventListener('click', ()=> showAt(currentIndex + 1));
+    lightbox.addEventListener('click', (e)=>{
+      if(e.target === lightbox) closeLightbox();
+    });
+  })();
+
+  document.querySelectorAll('.format-flip').forEach(card=>{
+    card.addEventListener('click', ()=>{
+      card.classList.toggle('flipped');
+    });
+    card.addEventListener('keydown', (e)=>{
+      if(e.key === 'Enter' || e.key === ' '){
+        e.preventDefault();
+        card.classList.toggle('flipped');
+      }
+    });
+  });
+
+  document.querySelectorAll('.faq-item').forEach(item=>{
+    const q = item.querySelector('.q');
+    const icon = q.querySelector('.faq-toggle-icon');
+    const a = item.querySelector('.a');
+    function toggleFaq(){
+      const isOpen = item.classList.toggle('open');
+      q.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      if(icon) icon.textContent = isOpen ? '–' : '+';
+      if(a) a.style.maxHeight = isOpen ? a.scrollHeight + 'px' : '0px';
+    }
+    q.addEventListener('click', toggleFaq);
+    q.addEventListener('keydown', (e)=>{
+      if(e.key === 'Enter' || e.key === ' '){
+        e.preventDefault();
+        toggleFaq();
+      }
+    });
+    window.addEventListener('resize', ()=>{
+      if(item.classList.contains('open') && a) a.style.maxHeight = a.scrollHeight + 'px';
+    });
+  });
+
+  /* COMPOSITION POPUP (Состав набора) */
+  document.querySelectorAll('.composition-toggle').forEach(btn=>{
+    const popup = document.getElementById(btn.getAttribute('aria-controls'));
+    if(!popup) return;
+    function closePopup(){
+      popup.hidden = true;
+      btn.setAttribute('aria-expanded', 'false');
+    }
+    function openPopup(){
+      popup.hidden = false;
+      btn.setAttribute('aria-expanded', 'true');
+    }
+    btn.addEventListener('click', (e)=>{
+      e.stopPropagation();
+      if(popup.hidden){ openPopup(); } else { closePopup(); }
+    });
+    document.addEventListener('click', (e)=>{
+      if(!popup.hidden && !popup.contains(e.target) && e.target !== btn){
+        closePopup();
+      }
+    });
+    document.addEventListener('keydown', (e)=>{
+      if(e.key === 'Escape' && !popup.hidden){
+        closePopup();
+        btn.focus();
+      }
+    });
+  });
+
+  /* SHARE WITH A FRIEND — попап с Telegram + копированием ссылки (вместо системного navigator.share) */
+  (function(){
+    const toggle = document.getElementById('shareFriendBtn');
+    const popup = document.getElementById('share-popup');
+    const telegramLink = document.getElementById('shareTelegramLink');
+    const copyBtn = document.getElementById('shareCopyLink');
+    if(!toggle || !popup) return;
+
+    const shareText = 'Смотри, нашла марафон похудения — присоединяйся вместе со мной!';
+
+    function closeSharePopup(){
+      popup.hidden = true;
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+    function openSharePopup(){
+      const url = window.location.href;
+      if(telegramLink){
+        telegramLink.href = 'https://t.me/share/url?url=' + encodeURIComponent(url) + '&text=' + encodeURIComponent(shareText);
+      }
+      popup.hidden = false;
+      toggle.setAttribute('aria-expanded', 'true');
+    }
+    toggle.addEventListener('click', (e)=>{
+      e.stopPropagation();
+      if(popup.hidden){ openSharePopup(); } else { closeSharePopup(); }
+    });
+    document.addEventListener('click', (e)=>{
+      if(!popup.hidden && !popup.contains(e.target) && e.target !== toggle){
+        closeSharePopup();
+      }
+    });
+    document.addEventListener('keydown', (e)=>{
+      if(e.key === 'Escape' && !popup.hidden){
+        closeSharePopup();
+        toggle.focus();
+      }
+    });
+
+    if(copyBtn){
+      copyBtn.addEventListener('click', async ()=>{
+        const url = window.location.href;
+        const label = copyBtn.querySelector('span:last-child');
+        const originalText = label ? label.textContent : '';
+        // Clipboard API требует "безопасного контекста" (https/localhost) — на file:// (локальный
+        // просмотр файла) window.isSecureContext === false, а вызов может не просто отказать,
+        // а уронить вкладку Chrome (RESULT_CODE_KILLED_BAD_MESSAGE), поэтому не вызываем его там.
+        if(!window.isSecureContext || !navigator.clipboard){
+          window.prompt('Скопируйте ссылку и отправьте подруге:', url);
+          closeSharePopup();
+          return;
+        }
+        try{
+          await navigator.clipboard.writeText(url);
+          if(label){
+            label.textContent = 'Скопировано!';
+            setTimeout(()=>{ label.textContent = originalText; }, 2000);
+          }
+        }catch(e){
+          window.prompt('Скопируйте ссылку и отправьте подруге:', url);
+        }
+        closeSharePopup();
+      });
+    }
+  })();
+
+  /* КАЛЬКУЛЯТОР КБЖУ — формула Миффлина-Сан Жеора (BMR) + коэффициент активности (TDEE) */
+  let lastCalcData = null;
+  const calcBtn = document.getElementById('calcBtn');
+  if(calcBtn){
+    calcBtn.addEventListener('click', ()=>{
+      const gender = document.querySelector('input[name="calc-gender"]:checked').value;
+      const age = parseFloat(document.getElementById('calc-age').value);
+      const height = parseFloat(document.getElementById('calc-height').value);
+      const weight = parseFloat(document.getElementById('calc-weight').value);
+      const activity = parseFloat(document.getElementById('calc-activity').value);
+      const goal = document.getElementById('calc-goal').value;
+
+      if(!age || !height || !weight){
+        alert('Заполните возраст, рост и вес, чтобы рассчитать КБЖУ');
+        return;
+      }
+
+      const bmr = gender === 'male'
+        ? 10 * weight + 6.25 * height - 5 * age + 5
+        : 10 * weight + 6.25 * height - 5 * age - 161;
+      const tdee = bmr * activity;
+
+      const goalFactor = { loss: 0.85, maintain: 1, gain: 1.1 }[goal];
+      const kcal = Math.round(tdee * goalFactor);
+
+      const macroSplit = {
+        loss:     { protein: 0.30, fat: 0.30, carbs: 0.40 },
+        maintain: { protein: 0.25, fat: 0.30, carbs: 0.45 },
+        gain:     { protein: 0.25, fat: 0.25, carbs: 0.50 }
+      }[goal];
+
+      const proteinG = Math.round(kcal * macroSplit.protein / 4);
+      const fatG = Math.round(kcal * macroSplit.fat / 9);
+      const carbsG = Math.round(kcal * macroSplit.carbs / 4);
+
+      document.getElementById('calc-kcal-val').textContent = kcal;
+      document.getElementById('calc-protein-val').textContent = proteinG + ' г';
+      document.getElementById('calc-fat-val').textContent = fatG + ' г';
+      document.getElementById('calc-carbs-val').textContent = carbsG + ' г';
+      document.getElementById('calcResult').classList.add('show');
+      document.getElementById('calcResult').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+      lastCalcData = { kcal, proteinG, fatG, carbsG };
+    });
+  }
+
+  const burgerBtn = document.getElementById('burgerBtn');
+  const navMenu = document.getElementById('navMenu');
+
+  function toggleMenu(){
+    burgerBtn.classList.toggle('open');
+    navMenu.classList.toggle('open');
+  }
+  burgerBtn.addEventListener('click', toggleMenu);
+
+  /* "НАЗАД К МЕСТУ ЧТЕНИЯ": запоминаем позицию скролла перед переходом по ссылке
+     бургер-меню на якорь секции, показываем плавающую кнопку возврата */
+  const backToPositionBtn = document.getElementById('backToPositionBtn');
+  let savedScrollPos = null;
+
+  navMenu.querySelectorAll('a[href^="#"]').forEach(el=>{
+    el.addEventListener('click', ()=>{
+      savedScrollPos = window.scrollY;
+      backToPositionBtn.classList.add('visible');
+    });
+  });
+
+  backToPositionBtn.addEventListener('click', ()=>{
+    if(savedScrollPos !== null){
+      window.scrollTo({ top: savedScrollPos, behavior: 'smooth' });
+    }
+    backToPositionBtn.classList.remove('visible');
+    savedScrollPos = null;
+  });
+
+  navMenu.querySelectorAll('a, button').forEach(el=>{
+    el.addEventListener('click', ()=>{
+      burgerBtn.classList.remove('open');
+      navMenu.classList.remove('open');
+    });
+  });
+
+  /* MODAL ANKETA */
+  const modalOverlay = document.getElementById('modalOverlay');
+  const modalSheet = document.querySelector('.modal-sheet');
+  const modalClose = document.getElementById('modalClose');
+  const ankForm = document.getElementById('ankForm');
+  let lastFocusedEl = null;
+
+  function getFocusable(){
+    return Array.from(modalSheet.querySelectorAll('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'))
+      .filter(el => el.offsetParent !== null);
+  }
+
+  function trapFocus(e){
+    if(e.key !== 'Tab') return;
+    const focusable = getFocusable();
+    if(focusable.length === 0) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if(e.shiftKey && document.activeElement === first){
+      e.preventDefault();
+      last.focus();
+    } else if(!e.shiftKey && document.activeElement === last){
+      e.preventDefault();
+      first.focus();
+    }
+  }
+
+  function openModal(){
+    lastFocusedEl = document.activeElement;
+    modalOverlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    document.addEventListener('keydown', onModalKeydown);
+    const focusable = getFocusable();
+    if(focusable.length) focusable[0].focus();
+  }
+  function closeModal(){
+    modalOverlay.classList.remove('open');
+    document.body.style.overflow = '';
+    document.removeEventListener('keydown', onModalKeydown);
+    if(lastFocusedEl) lastFocusedEl.focus();
+    calcModalContext = false;
+  }
+  function onModalKeydown(e){
+    if(e.key === 'Escape') closeModal();
+    trapFocus(e);
+  }
+  let calcModalContext = false;
+  document.querySelectorAll('.open-form').forEach(btn=>{
+    btn.addEventListener('click', (e)=>{
+      e.preventDefault();
+      calcModalContext = (btn.id === 'calcPlanBtn');
+      openModal();
+    });
+  });
+  modalClose.addEventListener('click', closeModal);
+  modalOverlay.addEventListener('click', (e)=>{
+    if(e.target === modalOverlay) closeModal();
+  });
+
+  document.querySelectorAll('.radio-option').forEach(opt=>{
+    opt.addEventListener('click', ()=>{
+      const name = opt.querySelector('input').name;
+      document.querySelectorAll(`.radio-option input[name="${name}"]`).forEach(inp=>{
+        inp.closest('.radio-option').classList.remove('checked');
+      });
+      opt.classList.add('checked');
+      opt.querySelector('input').checked = true;
+    });
+  });
+  document.querySelector('.radio-option input[checked]')?.closest('.radio-option').classList.add('checked');
+
+  ankForm.addEventListener('submit', async (e)=>{
+    e.preventDefault();
+    const submitBtn = ankForm.querySelector('button[type="submit"]');
+    const data = new FormData(ankForm);
+    let text =
+      '🎯 Новая заявка на марафон BODY TIME\n' +
+      `Имя: ${data.get('name') || '—'}\n` +
+      `Контакт: ${data.get('contact') || '—'}\n` +
+      `Возраст: ${data.get('age') || '—'}\n` +
+      `Формат: ${data.get('format') || '—'}\n` +
+      `Цель: ${data.get('goal') || '—'}`;
+
+    if(calcModalContext && lastCalcData){
+      text += '\n\n📊 Результат калькулятора КБЖУ:\n' +
+        `${lastCalcData.kcal} ккал/день\n` +
+        `Белки: ${lastCalcData.proteinG} г, Жиры: ${lastCalcData.fatG} г, Углеводы: ${lastCalcData.carbsG} г`;
+    }
+
+    const showThanks = ()=>{
+      ankForm.innerHTML = '<p style="color:var(--ink);text-align:center;padding:24px 0;">Спасибо! Куратор свяжется с вами в течение дня 🎉</p>';
+      setTimeout(closeModal, 1800);
+    };
+    const showError = ()=>{
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Отправить анкету';
+      alert('Не получилось отправить заявку. Попробуйте ещё раз или напишите нам в Telegram напрямую.');
+    };
+
+    const endpoint = CONFIG.LEAD_ENDPOINT.replace(/[\[\]]/g, '');
+    if(!endpoint){
+      // Эндпоинт ещё не настроен — показываем заглушку, ничего никуда не уходит
+      showThanks();
+      return;
+    }
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Отправляем...';
+    try{
+      // Токен бота и chat_id НЕ передаются с фронтенда — эндпоинт сам знает,
+      // куда слать (хранит секреты на сервере). Отправляем только текст заявки.
+      const resp = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text })
+      });
+      if(!resp.ok) throw new Error('Lead endpoint error');
+      showThanks();
+    }catch(err){
+      showError();
+    }
+  });
+</script>
+</body>
+</html>
